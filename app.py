@@ -8,7 +8,7 @@ run_with_ngrok(app)
 
 @app.route("/")
 def run_stream():
-    source=r'C:\Users\Keerthika\Desktop\face_recognition\input_1.mp4'
+    source=r'input_1.mp4'
 
 
 
