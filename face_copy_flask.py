@@ -58,7 +58,7 @@ def build_argparser(source):
     #input=r"C:\Users\Admin\Desktop\D51_20220909181158_Trim_one_now.mp4"
     # input = r"C:\Users\Admin\Desktop\D51_20220909170309_Trim_now_one.mp4"
     #input=r"C:\Users\Admin\Desktop\D51_20220909181158_Trim_now_Trim.mp4"
-    model_face_detection =r"model_files\face-detection-0204.xml"
+    model_face_detection =r"model_files/face-detection-0204.xml"
     landmarks_model = r"model_files\landmarks-regression-retail-0009.xml"
     model_refinder = r"model_files\face-reidentification-retail-0095.xml"
 
