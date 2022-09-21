@@ -1,10 +1,6 @@
 from face_copy_flask import *
 from flask import Flask,Response
-from flask_ngrok import run_with_ngrok
-
 app = Flask(__name__)
-run_with_ngrok(app)
-
 
 @app.route("/")
 def run_stream():
@@ -20,4 +16,4 @@ def run_stream():
 
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True, host='0.0.0.0', port=8087)
